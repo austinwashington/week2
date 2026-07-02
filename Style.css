@@ -1,0 +1,39 @@
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #00aeff;
+     
+}
+
+nav ul li {
+    display:inline-block;
+    margin-right: 10px;
+    padding: 20px;
+   
+}
+
+nav {
+    text-align: center;
+    
+}
+ nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    
+    }
+    nav a:hover {color: #000000;
+}
+
+.home {
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQHPTV9Oahtw1DAWasIQAmw3lzQpES3BA1I4oK4k9IqhQ&s=1024");
+    background-size: cover;
+    background-position: center;
+text-align: center;
+    color: white;
+    font-size: 40px;
+   
+}
