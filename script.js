@@ -17,6 +17,7 @@ let choices = [
     "josh should be sent to the dark side of the moon",
     "josh should be sent to the sun",
     "josh should be sent to the center of the earth",
+    "josh should be sent to rock bottom",
     
 
 ];
