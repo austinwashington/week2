@@ -1,9 +1,14 @@
+h1 {
+    text-align: center;
+    color: rgb(2, 39, 73);
+    font-family: 'Courier New', Courier, monospace;
+}
 nav ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #00aeff;
+    background-color: #00aeffb7;
      
 }
 
@@ -16,25 +21,33 @@ nav li {
 
 nav {
     text-align: center;
+    sticky: top;
     
 }
  nav a {
     text-decoration: none;
-    color: white;
+    color: rgb(2, 39, 73);
     font-size: 20px;
     font-family: 'Courier New', Courier, monospace;
     
     }
-    nav a:hover {color: #004cff;
+    nav a:hover {color: rgb(0, 76, 255);
 }
 
 .home {
     background-image: url("https://wallpapercave.com/wp/wp15518924.jpg");
     background-position: center;
 text-align: center;
-    color: white;
+    color:  rgb(2, 39, 73);;
     font-size: 40px;
     background-size: cover;
+      background-repeat: no-repeat;
+background-attachment: fixed;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     
    
 }
@@ -46,7 +59,7 @@ img {
 
 #btn2 {
     background-color: #00aeff;
-    color: white;
+    color: rgb(255, 255, 255);
     padding: 10px 20px;
     border: none;
     border-radius: 5px;
@@ -67,6 +80,7 @@ img {
     position: absolute;
     top: 20px;
     right: 20px;
+    justify-content: center;
 }
 
 #alertbtn {
@@ -77,6 +91,7 @@ img {
     border-radius: 5px;
     cursor: pointer;
  align-items: center;
+    justify-content: center;
     justify-content: center;
 }
 
@@ -92,8 +107,31 @@ img {
 }
 
 #clock {
-    top: 20px;
-    right: 20px;
+    font-size: 24px;
+    font-family: 'Courier New', Courier, monospace;
+    color: rgb(2, 39, 73);
 
     
+}
+
+.card {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px 25px;
+    border-radius: 12px;
+    text-align: left;
+    color: rgb(2, 39, 73);
+}
+
+.card-blue {
+    background-color: #cdeeff;
+}
+
+.card-green {
+    background-color: #aee0fc;
+}
+
+.card-purple {
+    background-color: #8fd3fb;
+    text-align: center;
 }

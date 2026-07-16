@@ -10,7 +10,7 @@ function updateClock() {
 
   const pad = n => n.toString().padStart(2, '0');
 
-  document.getElementById('clockText').textContent =
+  document.getElementById('clock').textContent =
     `${pad(hours)}:${pad(minutes)}:${pad(seconds)} ${ampm}`;
 }
 

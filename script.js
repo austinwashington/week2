@@ -1,7 +1,6 @@
 let alertbtn = document.getElementById("alertbtn");
 let choices = [
     "josh should be slimed",
-    "josh is a twink",
     "josh needs to be deatomized",
     "josh should be eliminated",
     "josh should be banished",
