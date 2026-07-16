@@ -1,137 +1,137 @@
 h1 {
-    text-align: center;
-    color: rgb(2, 39, 73);
-    font-family: 'Courier New', Courier, monospace;
+text-align: center;
+color: rgb(2, 39, 73);
+font-family: 'Courier New', Courier, monospace;
 }
 nav ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: #00aeffb7;
+list-style-type: none;
+margin: 0;
+padding: 0;
+overflow: hidden;
+background-color: #00aeffb7;
      
 }
 
 nav li {
-    display:inline-block;
-    margin-right: 10px;
-    padding: 20px;
+display:inline-block;
+margin-right: 10px;
+padding: 20px;
    
 }
 
 nav {
-    text-align: center;
-    sticky: top;
-    
+text-align: center;
+position: sticky;
+top: 0;
 }
  nav a {
-    text-decoration: none;
-    color: rgb(2, 39, 73);
-    font-size: 20px;
-    font-family: 'Courier New', Courier, monospace;
+text-decoration: none;
+color: rgb(2, 39, 73);
+font-size: 20px;
+font-family: 'Courier New', Courier, monospace;
     
     }
-    nav a:hover {color: rgb(0, 76, 255);
+nav a:hover {color: rgb(0, 76, 255);
 }
 
 .home {
-    background-image: url("https://wallpapercave.com/wp/wp15518924.jpg");
-    background-position: center;
+background-image: url("https://wallpapercave.com/wp/wp15518924.jpg");
+background-position: center;
 text-align: center;
-    color:  rgb(2, 39, 73);;
-    font-size: 40px;
-    background-size: cover;
-      background-repeat: no-repeat;
+color:  rgb(2, 39, 73);;
+font-size: 40px;
+background-size: cover;
+background-repeat: no-repeat;
 background-attachment: fixed;
-    height: 100vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+height: 100vh;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
     
    
 }
 img {
-    display: block;
-    margin-left: 20px;
-    margin-right: 20px;
+display: block;
+margin-left: 20px;
+margin-right: 20px;
 }
 
 #btn2 {
-    background-color: #00aeff;
-    color: rgb(255, 255, 255);
-    padding: 10px 20px;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    font-size: 16px;
- align-items: center;
-    justify-content: center;
+ background-color: #00aeff;
+color: rgb(255, 255, 255);
+padding: 10px 20px;
+border: none;
+border-radius: 5px;
+cursor: pointer;
+font-size: 16px;
+align-items: center;
+justify-content: center;
 }
 #btn3 {
-    background-color: #00aeff;
-    color: rgb(10, 10, 10);
-    padding: 10px 20px;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
- align-items: center;
-    justify-content: center;
-    position: absolute;
-    top: 20px;
-    right: 20px;
-    justify-content: center;
+background-color: #00aeff;
+color: rgb(10, 10, 10);
+padding: 10px 20px;
+border: none;
+border-radius: 5px;
+cursor: pointer;
+align-items: center;
+justify-content: center;
+position: absolute;
+top: 20px;
+right: 20px;
+justify-content: center;
 }
 
 #alertbtn {
-    background-color: #00aeff;
-    color: white;
-    padding: 10px 20px;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
- align-items: center;
-    justify-content: center;
-    justify-content: center;
+ background-color: #00aeff;
+color: white;
+ padding: 10px 20px;
+border: none;
+border-radius: 5px;
+cursor: pointer;
+align-items: center;
+justify-content: center;
+justify-content: center;
 }
 
 #btn4 {
-    background-color: #00aeff;
-    color: white;
-    padding: 10px 20px;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
- align-items: center;
-    justify-content: center;
+background-color: #00aeff;
+color: white;
+padding: 10px 20px;
+border: none;
+border-radius: 5px;
+cursor: pointer;
+align-items: center;
+justify-content: center;
 }
 
 #clock {
-    font-size: 24px;
-    font-family: 'Courier New', Courier, monospace;
-    color: rgb(2, 39, 73);
+font-size: 24px;
+font-family: 'Courier New', Courier, monospace;
+color: rgb(2, 39, 73);
 
     
 }
 
 .card {
-    max-width: 600px;
-    margin: 20px auto;
-    padding: 20px 25px;
-    border-radius: 12px;
-    text-align: left;
-    color: rgb(2, 39, 73);
+max-width: 600px;
+margin: 20px auto;
+padding: 20px 25px;
+border-radius: 12px;
+text-align: left;
+color: rgb(2, 39, 73);
 }
 
 .card-blue {
-    background-color: #cdeeff;
+background-color: #cdeeff;
 }
 
 .card-green {
-    background-color: #aee0fc;
+background-color: #aee0fc;
 }
 
 .card-purple {
-    background-color: #8fd3fb;
-    text-align: center;
+background-color: #8fd3fb;
+text-align: center;
 }
